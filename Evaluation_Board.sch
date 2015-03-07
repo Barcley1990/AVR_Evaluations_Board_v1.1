@@ -14951,42 +14951,42 @@ Source: 008-0260-0_E.pdf</description>
 <junction x="71.12" y="177.8"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="C2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TCK)PC2"/>
 <pinref part="SV5" gate="A" pin="6"/>
 <wire x1="127" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="C3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TMS)PC3"/>
 <pinref part="SV5" gate="A" pin="5"/>
 <wire x1="127" y1="142.24" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="C4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TDO)PC4"/>
 <pinref part="SV5" gate="A" pin="4"/>
 <wire x1="127" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="C5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TDI)PC5"/>
 <pinref part="SV5" gate="A" pin="3"/>
 <wire x1="127" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="C6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TOSC1)PC6"/>
 <pinref part="SV5" gate="A" pin="2"/>
 <wire x1="127" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="C7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TOSC2)PC7"/>
 <pinref part="SV5" gate="A" pin="1"/>

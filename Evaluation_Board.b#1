@@ -177,6 +177,34 @@ März 2015 v1.0</text>
 AVR-Eval-Board
 März 2015 v1.0</text>
 <circle x="55.88" y="16.51" radius="0.354975" width="0" layer="25"/>
+<text x="14.12875" y="33.81375" size="1.016" layer="25" font="vector">Rx</text>
+<text x="16.66875" y="33.81375" size="1.016" layer="25" font="vector">Tx</text>
+<text x="30.95625" y="34.13125" size="1.016" layer="25" font="vector">Reset</text>
+<text x="28.41625" y="34.13125" size="1.016" layer="25" font="vector">+5V</text>
+<text x="34.925" y="33.9725" size="1.016" layer="25" font="vector">A0</text>
+<text x="37.465" y="33.9725" size="1.016" layer="25" font="vector">A1</text>
+<text x="40.005" y="33.9725" size="1.016" layer="25" font="vector">A2</text>
+<text x="42.545" y="33.9725" size="1.016" layer="25" font="vector">A3</text>
+<text x="45.085" y="33.9725" size="1.016" layer="25" font="vector">A4</text>
+<text x="47.625" y="33.9725" size="1.016" layer="25" font="vector">A5</text>
+<text x="50.165" y="33.9725" size="1.016" layer="25" font="vector">A6</text>
+<text x="52.705" y="33.9725" size="1.016" layer="25" font="vector">A7</text>
+<text x="13.97" y="4.28625" size="1.016" layer="25" font="vector">B1</text>
+<text x="16.66875" y="4.28625" size="0.6096" layer="25" font="vector">INT2</text>
+<text x="19.20875" y="4.28625" size="0.6096" layer="25" font="vector">INT1</text>
+<text x="21.59" y="4.28625" size="0.6096" layer="25" font="vector">INT0</text>
+<text x="24.13" y="4.28625" size="0.6096" layer="25" font="vector">OC2</text>
+<text x="26.3525" y="4.28625" size="0.6096" layer="25" font="vector">OC1B</text>
+<text x="28.73375" y="4.28625" size="0.6096" layer="25" font="vector">OC1A</text>
+<text x="31.90875" y="4.28625" size="0.6096" layer="25" font="vector">OC0</text>
+<text x="35.40125" y="4.28625" size="0.6096" layer="25" font="vector">SCL</text>
+<text x="37.7825" y="4.28625" size="0.6096" layer="25" font="vector">SDA</text>
+<text x="40.3225" y="4.28625" size="1.016" layer="25" font="vector">C2</text>
+<text x="42.8625" y="4.28625" size="1.016" layer="25" font="vector">C3</text>
+<text x="45.4025" y="4.28625" size="1.016" layer="25" font="vector">C4</text>
+<text x="47.9425" y="4.28625" size="1.016" layer="25" font="vector">C5</text>
+<text x="50.4825" y="4.28625" size="1.016" layer="25" font="vector">C6</text>
+<text x="53.0225" y="4.28625" size="1.016" layer="25" font="vector">C7</text>
 </plain>
 <libraries>
 <library name="atmel">
@@ -2291,7 +2319,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="58.4175" y1="4.7625" x2="58.4175" y2="6.45" width="0.3048" layer="1"/>
 <wire x1="58.4175" y1="6.45" x2="58.2" y2="6.6675" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$6">
+<signal name="A7">
 <contactref element="IC1" pad="30"/>
 <contactref element="SV2" pad="1"/>
 <wire x1="44.535" y1="23.19" x2="45.7325" y2="23.19" width="0.3048" layer="1"/>
@@ -2299,7 +2327,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="47.625" y1="25.0825" x2="47.625" y2="30.48" width="0.3048" layer="1"/>
 <wire x1="53.6575" y1="36.5125" x2="47.625" y2="30.48" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$7">
+<signal name="A6">
 <contactref element="IC1" pad="31"/>
 <contactref element="SV2" pad="2"/>
 <wire x1="46.99" y1="32.385" x2="46.99" y2="25.4" width="0.3048" layer="1"/>
@@ -2307,7 +2335,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="45.58" y1="23.99" x2="46.99" y2="25.4" width="0.3048" layer="1"/>
 <wire x1="51.1175" y1="36.5125" x2="46.99" y2="32.385" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$8">
+<signal name="A5">
 <contactref element="SV2" pad="3"/>
 <contactref element="IC1" pad="32"/>
 <wire x1="44.535" y1="24.79" x2="45.4275" y2="24.79" width="0.3048" layer="1"/>
@@ -2315,7 +2343,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="46.355" y1="25.7175" x2="46.355" y2="34.29" width="0.3048" layer="1"/>
 <wire x1="46.355" y1="34.29" x2="48.5775" y2="36.5125" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$9">
+<signal name="A4">
 <contactref element="IC1" pad="33"/>
 <contactref element="SV2" pad="4"/>
 <wire x1="46.0375" y1="36.5125" x2="46.0375" y2="35.2425" width="0.3048" layer="1"/>
@@ -2324,14 +2352,14 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="45.72" y1="26.035" x2="45.275" y2="25.59" width="0.3048" layer="1"/>
 <wire x1="44.535" y1="25.59" x2="45.275" y2="25.59" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$10">
+<signal name="A3">
 <contactref element="IC1" pad="34"/>
 <contactref element="SV2" pad="5"/>
 <wire x1="43.4975" y1="36.5125" x2="43.4975" y2="32.385" width="0.3048" layer="1"/>
 <wire x1="42.735" y1="27.39" x2="42.735" y2="31.6225" width="0.3048" layer="1"/>
 <wire x1="42.735" y1="31.6225" x2="43.4975" y2="32.385" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$11">
+<signal name="A2">
 <contactref element="IC1" pad="35"/>
 <contactref element="SV2" pad="6"/>
 <wire x1="40.9575" y1="36.5125" x2="40.9575" y2="32.385" width="0.3048" layer="1"/>
@@ -2339,14 +2367,14 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="41.91" y1="31.4325" x2="41.91" y2="27.415" width="0.3048" layer="1"/>
 <wire x1="41.91" y1="27.415" x2="41.935" y2="27.39" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$12">
+<signal name="A1">
 <contactref element="IC1" pad="36"/>
 <contactref element="SV2" pad="7"/>
 <wire x1="38.4175" y1="36.5125" x2="38.4175" y2="33.9725" width="0.3048" layer="1"/>
 <wire x1="38.4175" y1="33.9725" x2="41.135" y2="31.255" width="0.3048" layer="1"/>
 <wire x1="41.135" y1="27.39" x2="41.135" y2="31.255" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$13">
+<signal name="A0">
 <contactref element="IC1" pad="37"/>
 <contactref element="SV2" pad="8"/>
 <wire x1="35.8775" y1="36.5125" x2="35.8775" y2="35.56" width="0.3048" layer="1"/>
@@ -2479,13 +2507,13 @@ Design rules for OSH Park PCB 2 layer</description>
 <via x="44.1325" y="29.845" extent="1-16" drill="0.5"/>
 <via x="44.1325" y="31.115" extent="1-16" drill="0.5"/>
 <via x="42.2275" y="33.3375" extent="1-16" drill="0.5"/>
-<via x="39.6875" y="34.29" extent="1-16" drill="0.5"/>
+<via x="39.52875" y="34.29" extent="1-16" drill="0.5"/>
 <via x="48.5775" y="32.7025" extent="1-16" drill="0.5"/>
 <via x="47.3075" y="33.9725" extent="1-16" drill="0.5"/>
 <via x="47.3075" y="21.9075" extent="1-16" drill="0.5"/>
 <via x="52.3875" y="6.0325" extent="1-16" drill="0.5"/>
 <via x="24.765" y="5.3975" extent="1-16" drill="0.5"/>
-<via x="20.955" y="5.08" extent="1-16" drill="0.5"/>
+<via x="21.43125" y="5.715" extent="1-16" drill="0.5"/>
 <via x="53.975" y="21.9075" extent="1-16" drill="0.5"/>
 <via x="49.2125" y="29.845" extent="1-16" drill="0.5"/>
 <via x="50.165" y="30.7975" extent="1-16" drill="0.5"/>
@@ -2519,19 +2547,18 @@ Design rules for OSH Park PCB 2 layer</description>
 <via x="8.255" y="10.795" extent="1-16" drill="0.5"/>
 <via x="8.255" y="4.1275" extent="1-16" drill="0.5"/>
 <via x="1.905" y="3.81" extent="1-16" drill="0.5"/>
-<via x="17.78" y="4.7625" extent="1-16" drill="0.5"/>
 <via x="19.05" y="6.0325" extent="1-16" drill="0.5"/>
 <via x="26.9875" y="7.9375" extent="1-16" drill="0.5"/>
 <via x="26.9875" y="10.16" extent="1-16" drill="0.5"/>
 <via x="33.655" y="29.21" extent="1-16" drill="0.5"/>
-<via x="44.45" y="33.9725" extent="1-16" drill="0.5"/>
-<via x="50.165" y="34.29" extent="1-16" drill="0.5"/>
+<via x="44.60875" y="33.655" extent="1-16" drill="0.5"/>
+<via x="49.53" y="33.655" extent="1-16" drill="0.5"/>
 <via x="59.53125" y="18.57375" extent="1-16" drill="0.5"/>
 <via x="59.69" y="2.54" extent="1-16" drill="0.5"/>
 <via x="59.69" y="1.27" extent="1-16" drill="0.5"/>
 <via x="58.42" y="1.27" extent="1-16" drill="0.5"/>
 <via x="8.89" y="1.27" extent="1-16" drill="0.5"/>
-<via x="14.9225" y="5.08" extent="1-16" drill="0.5"/>
+<via x="14.2875" y="7.77875" extent="1-16" drill="0.5"/>
 <via x="1.27" y="15.24" extent="1-16" drill="0.5"/>
 <via x="2.54" y="15.24" extent="1-16" drill="0.5"/>
 <via x="13.335" y="16.8275" extent="1-16" drill="0.5"/>
@@ -2810,28 +2837,28 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="49.0825" y1="21.9075" x2="49.0825" y2="24.6325" width="0.3048" layer="1"/>
 <wire x1="49.0825" y1="24.6325" x2="50.1675" y2="25.7175" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$31">
+<signal name="C2">
 <contactref element="IC1" pad="21"/>
 <contactref element="SV5" pad="6"/>
 <wire x1="41.275" y1="2.54" x2="41.275" y2="3.81" width="0.3048" layer="1"/>
 <wire x1="41.275" y1="3.81" x2="41.935" y2="4.47" width="0.3048" layer="1"/>
 <wire x1="41.935" y1="15.79" x2="41.935" y2="4.47" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$32">
+<signal name="C3">
 <contactref element="IC1" pad="22"/>
 <contactref element="SV5" pad="5"/>
 <wire x1="42.735" y1="15.79" x2="42.735" y2="4.89" width="0.3048" layer="1"/>
 <wire x1="42.735" y1="4.89" x2="43.815" y2="3.81" width="0.3048" layer="1"/>
 <wire x1="43.815" y1="3.81" x2="43.815" y2="2.54" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$33">
+<signal name="C4">
 <contactref element="IC1" pad="23"/>
 <contactref element="SV5" pad="4"/>
 <wire x1="44.535" y1="17.59" x2="45.91" y2="17.59" width="0.3048" layer="1"/>
 <wire x1="45.91" y1="17.59" x2="46.355" y2="17.145" width="0.3048" layer="1"/>
 <wire x1="46.355" y1="17.145" x2="46.355" y2="2.54" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$34">
+<signal name="C5">
 <contactref element="IC1" pad="24"/>
 <contactref element="SV5" pad="3"/>
 <wire x1="44.535" y1="18.39" x2="46.38" y2="18.39" width="0.3048" layer="1"/>
@@ -2839,7 +2866,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="47.9425" y1="16.8275" x2="47.9425" y2="3.4925" width="0.3048" layer="1"/>
 <wire x1="47.9425" y1="3.4925" x2="48.895" y2="2.54" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$35">
+<signal name="C6">
 <contactref element="IC1" pad="25"/>
 <contactref element="SV5" pad="2"/>
 <wire x1="44.535" y1="19.19" x2="46.85" y2="19.19" width="0.3048" layer="1"/>
@@ -2848,7 +2875,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="48.895" y1="6.35" x2="51.435" y2="3.81" width="0.3048" layer="1"/>
 <wire x1="51.435" y1="3.81" x2="51.435" y2="2.54" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$36">
+<signal name="C7">
 <contactref element="IC1" pad="26"/>
 <contactref element="SV5" pad="1"/>
 <wire x1="44.535" y1="19.99" x2="47.32" y2="19.99" width="0.3048" layer="1"/>
