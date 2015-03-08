@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14407,56 +14407,56 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="276.86" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="A7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC7)PA7"/>
 <pinref part="SV2" gate="A" pin="1"/>
 <wire x1="127" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="A6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC6)PA6"/>
 <pinref part="SV2" gate="A" pin="2"/>
 <wire x1="127" y1="195.58" x2="149.86" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="A5" class="0">
 <segment>
 <pinref part="SV2" gate="A" pin="3"/>
 <pinref part="IC1" gate="G$1" pin="(ADC5)PA5"/>
 <wire x1="149.86" y1="193.04" x2="127" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="A4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC4)PA4"/>
 <pinref part="SV2" gate="A" pin="4"/>
 <wire x1="127" y1="190.5" x2="149.86" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="A3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC3)PA3"/>
 <pinref part="SV2" gate="A" pin="5"/>
 <wire x1="127" y1="187.96" x2="149.86" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="A2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC2)PA2"/>
 <pinref part="SV2" gate="A" pin="6"/>
 <wire x1="127" y1="185.42" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="A1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC1)PA1"/>
 <pinref part="SV2" gate="A" pin="7"/>
 <wire x1="127" y1="182.88" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="A0" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC0)PA0"/>
 <pinref part="SV2" gate="A" pin="8"/>
