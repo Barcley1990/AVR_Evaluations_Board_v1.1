@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -179,8 +179,8 @@ März 2015 v1.0</text>
 <circle x="55.88" y="16.51" radius="0.354975" width="0" layer="25"/>
 <text x="14.12875" y="33.81375" size="1.016" layer="25" font="vector">Rx</text>
 <text x="16.66875" y="33.81375" size="1.016" layer="25" font="vector">Tx</text>
-<text x="30.95625" y="34.13125" size="1.016" layer="25" font="vector">Reset</text>
-<text x="28.41625" y="34.13125" size="1.016" layer="25" font="vector">+5V</text>
+<text x="31.4325" y="34.13125" size="0.6096" layer="25" font="vector">Reset</text>
+<text x="29.05125" y="34.13125" size="0.6096" layer="25" font="vector">+5V</text>
 <text x="34.925" y="33.9725" size="1.016" layer="25" font="vector">A0</text>
 <text x="37.465" y="33.9725" size="1.016" layer="25" font="vector">A1</text>
 <text x="40.005" y="33.9725" size="1.016" layer="25" font="vector">A2</text>
@@ -205,6 +205,14 @@ März 2015 v1.0</text>
 <text x="47.9425" y="4.28625" size="1.016" layer="25" font="vector">C5</text>
 <text x="50.4825" y="4.28625" size="1.016" layer="25" font="vector">C6</text>
 <text x="53.0225" y="4.28625" size="1.016" layer="25" font="vector">C7</text>
+<text x="19.20875" y="34.13125" size="0.6096" layer="25" font="vector">CTS</text>
+<text x="21.74875" y="34.13125" size="0.6096" layer="25" font="vector">RTS</text>
+<text x="24.13" y="33.655" size="1.016" layer="25" font="vector">D6</text>
+<text x="26.67" y="34.13125" size="0.6096" layer="25" font="vector">GND</text>
+<text x="49.37125" y="9.04875" size="0.8128" layer="25" font="vector">SCK</text>
+<text x="48.895" y="11.58875" size="0.8128" layer="25" font="vector">MISO</text>
+<text x="48.895" y="14.12875" size="0.8128" layer="25" font="vector">MOSI</text>
+<text x="50.165" y="16.8275" size="0.8128" layer="25" font="vector">SS</text>
 </plain>
 <libraries>
 <library name="atmel">
@@ -2143,7 +2151,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <attribute name="VALUE" x="2.9845" y="29.5275" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C3" library="rcl" package="C0805" value="100n" x="29.05125" y="31.90875" smashed="yes">
-<attribute name="NAME" x="27.78125" y="33.17875" size="0.8128" layer="25"/>
+<attribute name="NAME" x="25.87625" y="31.90875" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="27.78125" y="29.36875" size="1.27" layer="27"/>
 </element>
 <element name="J1" library="con-jack" package="DCJ0202" value="DCJ0202" x="5.715" y="7.3025" smashed="yes" rot="R270">
@@ -2578,7 +2586,7 @@ Design rules for OSH Park PCB 2 layer</description>
 <via x="23.495" y="25.0825" extent="1-16" drill="0.5"/>
 <via x="23.495" y="22.86" extent="1-16" drill="0.5"/>
 <via x="20.32" y="15.875" extent="1-16" drill="0.5"/>
-<via x="23.1775" y="33.655" extent="1-16" drill="0.5"/>
+<via x="23.33625" y="33.17875" extent="1-16" drill="0.5"/>
 <via x="24.92375" y="33.17875" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="+5V">

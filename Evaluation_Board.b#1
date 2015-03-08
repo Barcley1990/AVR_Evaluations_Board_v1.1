@@ -2308,18 +2308,19 @@ Design rules for OSH Park PCB 2 layer</description>
 <contactref element="D1" pad="C"/>
 <contactref element="C5" pad="2"/>
 <contactref element="IC3" pad="3"/>
-<wire x1="7.7325" y1="13.6525" x2="9.84" y2="13.6525" width="0.3048" layer="1"/>
-<wire x1="9.84" y1="13.6525" x2="11.43" y2="12.0625" width="0.3048" layer="1"/>
-<wire x1="11.43" y1="12.0625" x2="12.385" y2="13.0175" width="0.3048" layer="1"/>
-<wire x1="22.5425" y1="13.0175" x2="23.1775" y2="12.3825" width="0.3048" layer="1"/>
-<wire x1="23.1775" y1="12.3825" x2="25.7175" y2="12.3825" width="0.3048" layer="1"/>
 <wire x1="25.7175" y1="12.3825" x2="25.6286" y2="12.4714" width="0.3048" layer="1"/>
 <wire x1="25.6286" y1="12.4714" x2="25.0063" y2="12.4714" width="0.3048" layer="1"/>
 <contactref element="D2" pad="C"/>
-<wire x1="12.385" y1="13.0175" x2="13.765" y2="13.0175" width="0.3048" layer="1"/>
 <wire x1="13.765" y1="13.0175" x2="13.97" y2="12.8125" width="0.3048" layer="1"/>
-<wire x1="22.5425" y1="13.0175" x2="14.175" y2="13.0175" width="0.3048" layer="1"/>
 <wire x1="14.175" y1="13.0175" x2="13.97" y2="12.8125" width="0.3048" layer="1"/>
+<wire x1="7.7325" y1="13.6525" x2="9.84" y2="13.6525" width="0.8128" layer="1"/>
+<wire x1="9.84" y1="13.6525" x2="11.43" y2="12.0625" width="0.8128" layer="1"/>
+<wire x1="11.43" y1="12.0625" x2="12.18" y2="12.8125" width="0.8128" layer="1"/>
+<wire x1="12.18" y1="12.8125" x2="13.97" y2="12.8125" width="0.8128" layer="1"/>
+<wire x1="14.175" y1="13.0175" x2="14.33375" y2="13.17625" width="0.8128" layer="1"/>
+<wire x1="14.33375" y1="13.17625" x2="22.5425" y2="13.17625" width="0.8128" layer="1"/>
+<wire x1="22.5425" y1="13.17625" x2="23.24735" y2="12.4714" width="0.8128" layer="1"/>
+<wire x1="23.24735" y1="12.4714" x2="25.0063" y2="12.4714" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R2" pad="2"/>
@@ -2487,8 +2488,6 @@ Design rules for OSH Park PCB 2 layer</description>
 <contactref element="C4" pad="1"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="C5" pad="1"/>
-<contactref element="J1" pad="1"/>
-<contactref element="J1" pad="2"/>
 <contactref element="S3" pad="3"/>
 <contactref element="S3" pad="4"/>
 <contactref element="C1" pad="1"/>
@@ -2588,6 +2587,8 @@ Design rules for OSH Park PCB 2 layer</description>
 <via x="20.32" y="15.875" extent="1-16" drill="0.5"/>
 <via x="23.33625" y="33.17875" extent="1-16" drill="0.5"/>
 <via x="24.92375" y="33.17875" extent="1-16" drill="0.5"/>
+<contactref element="J1" pad="2"/>
+<contactref element="J1" pad="3"/>
 </signal>
 <signal name="+5V">
 <contactref element="ISP" pad="2"/>
@@ -3048,12 +3049,6 @@ Design rules for OSH Park PCB 2 layer</description>
 <via x="34.925" y="29.5275" extent="1-16" drill="0.5"/>
 <wire x1="34.925" y1="29.5275" x2="35.56" y2="29.5275" width="0.3048" layer="16"/>
 </signal>
-<signal name="N$3">
-<contactref element="J1" pad="3"/>
-<contactref element="D1" pad="A"/>
-<wire x1="2.715" y1="7.3025" x2="2.715" y2="12.035" width="0.3048" layer="1"/>
-<wire x1="2.715" y1="12.035" x2="4.3325" y2="13.6525" width="0.3048" layer="1"/>
-</signal>
 <signal name="N$1">
 <contactref element="D3" pad="A"/>
 <contactref element="X1" pad="1"/>
@@ -3086,6 +3081,14 @@ Design rules for OSH Park PCB 2 layer</description>
 <wire x1="30.7975" y1="19.685" x2="30.63875" y2="19.52625" width="0.254" layer="1"/>
 <wire x1="30.63875" y1="19.52625" x2="25.4635" y2="19.52625" width="0.254" layer="1"/>
 <wire x1="25.4635" y1="19.52625" x2="24.92375" y2="18.9865" width="0.254" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="J1" pad="1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="8.815" y1="7.3025" x2="8.815" y2="8.33" width="0.8128" layer="1"/>
+<wire x1="8.815" y1="8.33" x2="4.28625" y2="12.85875" width="0.8128" layer="1"/>
+<wire x1="4.28625" y1="12.85875" x2="4.28625" y2="13.60625" width="0.8128" layer="1"/>
+<wire x1="4.28625" y1="13.60625" x2="4.3325" y2="13.6525" width="0.8128" layer="1"/>
 </signal>
 </signals>
 </board>
